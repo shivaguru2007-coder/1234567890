@@ -10,7 +10,7 @@ BOT_TOKEN = "5158021630:AAE9dUQ-q3yGD0H2SovHRP9-3kjQskmemBA"
 
 PAYMENT_CHANNEL = "@pythonbotesting"
 OWNER_ID = 1281850445
-CHANNELS = ["@sgking27here"]
+CHANNELS = ["@shieldgiveaway","@techno_moksh","@pocketloots","@Phonix_Giveaways","@officialstarkstore","@FULL2SMS1","@fiewinmodsell3","@TECHSID21"]
 Mini_Withdraw = 1
 Paytmkeys = "key"
 mid = "key"
