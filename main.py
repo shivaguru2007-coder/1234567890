@@ -323,7 +323,7 @@ def query_handler(call):
         #            cur_time2 = int((time.time()))
         #            withdraw[user_id] = cur_time2
                 bot.edit_message_text(chat_id=user, message_id=call.message.message_id, text="✅ Withdrawl initiated successfully!",parse_mode="html")
-                bot.send_message(PAYMENT_CHANNEL, "<b>🏧NEW WITHDRAW DONE SUCCESSFULLY🏦</b>\n\n<b>💰 Status </b>= SUCCESSFULLY PAID \n👨 <b>User</b> = "+str(message.chat.id)+"\n🚧 <b>USERNAME</b> = "+str @(message.chat.username)+"\n🤑 <b>AMOUNT</b> = "+str(amount)+"  \n🤖 BOT = @trrabaap_bot \n\n <b>⚡️KEEP SHARING AND LOOTING GUYS😉😊✅</b>\n\n <b>_-_-_-_-_-_- ⚜️JOIN NOW ⚜️ -_-_-_-_-_-_\n\n❍❍❍❖ @TheFirenetwork 🔥 ❖❍❍❍\n\n❍❍❍❖ @Thefirebots  ❖❍❍❍🔥🔥</b>", parse_mode="html")
+                bot.send_message(PAYMENT_CHANNEL, "<b>🏧NEW WITHDRAW DONE SUCCESSFULLY🏦</b>\n\n💰 Status = SUCCESSFULLY PAID \n👨 User = "+str(message.chat.id)+"\n🚧 USERNAME = "+str @(message.chat.username)+"\n🤑 AMOUNT = "+str(amount)+"  \n🤖 BOT = @trrabaap_bot \n\n ⚡️KEEP SHARING AND LOOTING GUYS😉😊✅\n\n _-_-_-_-_-_- ⚜️JOIN NOW ⚜️ -_-_-_-_-_-_\n❍❍❍❖ @TheFirenetwork 🔥 ❖❍❍❍\n❍❍❍❖ @Thefirebots  ❖❍❍❍🔥🔥", parse_mode="html")
             
                 return menu(user_id)
             except:
