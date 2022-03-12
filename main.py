@@ -8,7 +8,7 @@ TOKEN = "Rupees "
 
 BOT_TOKEN = "5158021630:AAE9dUQ-q3yGD0H2SovHRP9-3kjQskmemBA"
 
-PAYMENT_CHANNEL = "@pythonbotesting"
+PAYMENT_CHANNEL = "@pythonbotwdj"
 OWNER_ID = 1235084297
 CHANNELS = ["@shieldgiveaway","@techno_moksh","@pocketloots","@Phonix_Giveaways","@officialstarkstore","@FULL2SMS1","@fiewinmodsell3","@TECHSID21"]
 Mini_Withdraw = 1
