@@ -10,7 +10,7 @@ BOT_TOKEN = "5158021630:AAE9dUQ-q3yGD0H2SovHRP9-3kjQskmemBA"
 
 PAYMENT_CHANNEL = "@pythonbotesting"
 OWNER_ID = 1235084297
-CHANNELS = ["@shieldgiveaway","@techno_moksh","@pocketloots","@Phonix_Giveaways","@officialstarkstore","@FULL2SMS1","@fiewinmodsell3","@TECHSID21","@pythonbotesting"]
+CHANNELS = ["@shieldgiveaway","@techno_moksh","@pocketloots","@Phonix_Giveaways","@officialstarkstore","@FULL2SMS1","@fiewinmodsell3","@TECHSID21"]
 Mini_Withdraw = 1
 Paytmkeys = "key"
 mid = "key"
@@ -323,7 +323,7 @@ def query_handler(call):
         #            cur_time2 = int((time.time()))
         #            withdraw[user_id] = cur_time2
                 bot.edit_message_text(chat_id=user, message_id=call.message.message_id, text="✅ Withdrawl initiated successfully!",parse_mode="html")
-                bot.send_message(PAYMENT_CHANNEL, "<b><u>🏧NEW WITHDRAW DONE SUCCESSFULLY🏦</u></b>\n\n<b>💰 Status </b>= <i>SUCCESSFULLY PAID</i> \n👨 <b>User</b> = "+str(message.chat.id)+"\n🚧 <b>USERNAME</b> = "+str @(message.chat.username)+"\n🤑 <b>AMOUNT</b> = "+str(amount)+"  \n🤖 BOT = @trrabaap_bot \n\n <b><u>⚡️KEEP SHARING AND LOOTING GUYS😉😊✅</u></b>\n\n <b>_-_-_-_-_-_- ⚜️JOIN NOW ⚜️ -_-_-_-_-_-_\n\n❍❍❍❖ @TheFirenetwork 🔥 ❖❍❍❍\n\n❍❍❍❖ @Thefirebots  ❖❍❍❍🔥🔥</b>", parse_mode="html")
+                bot.send_message(PAYMENT_CHANNEL, "<b>🏧NEW WITHDRAW DONE SUCCESSFULLY🏦</b>\n\n<b>💰 Status </b>= SUCCESSFULLY PAID \n👨 <b>User</b> = "+str(message.chat.id)+"\n🚧 <b>USERNAME</b> = "+str @(message.chat.username)+"\n🤑 <b>AMOUNT</b> = "+str(amount)+"  \n🤖 BOT = @trrabaap_bot \n\n <b>⚡️KEEP SHARING AND LOOTING GUYS😉😊✅</b>\n\n <b>_-_-_-_-_-_- ⚜️JOIN NOW ⚜️ -_-_-_-_-_-_\n\n❍❍❍❖ @TheFirenetwork 🔥 ❖❍❍❍\n\n❍❍❍❖ @Thefirebots  ❖❍❍❍🔥🔥</b>", parse_mode="html")
             
                 return menu(user_id)
             except:
