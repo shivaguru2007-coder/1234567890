@@ -324,7 +324,8 @@ def query_handler(call):
         #            withdraw[user_id] = cur_time2
                 bot.edit_message_text(chat_id=user, message_id=call.message.message_id, text="✅ Withdrawl initiated successfully!",parse_mode="html")
                 bot.send_message(PAYMENT_CHANNEL, "<b>🏧NEW WITHDRAW DONE SUCCESSFULLY🏦</b>\n\n💰 Status = SUCCESSFULLY PAID \n👨 User = "+str(message.chat.id)+"\n🚧 USERNAME = @"+str(message.chat.username)+"\n🤑 AMOUNT = "+str(amount)+"  \n🤖 BOT = @trrabaap_bot \n\n ⚡️KEEP SHARING AND LOOTING GUYS😉😊✅\n\n _-_-_-_-_-_- ⚜️JOIN NOW ⚜️ -_-_-_-_-_-_\n❍❍❍❖ @TheFirenetwork 🔥 ❖❍❍❍\n❍❍❍❖ @Thefirebots  ❖❍❍❍🔥🔥", parse_mode="html")
-            return menu(user_id)
+                
+                return menu(user_id)
             
             except:
                 bot.send_message(message.chat.id, ".menu", parse_mode="Markdown")
